@@ -1,277 +1,361 @@
 /* Home Hero 1.0 */
 .hero_section {
-    position: relative;
-    background: url("../assets/hero/hero-1.jpg") no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 170px;
-    padding-bottom: 90px;
-  }
+  position: relative;
+  background: url("../assets/hero/hero-1.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 90px;
+}
 .hero_section .price_badge {
-    background: url("../assets/hero/price-badge-yellow.png") no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    width: 180px;
-    height: 176px;
-    text-align: center;
+  background: url("../assets/hero/price-badge-yellow.png") no-repeat center
+    center;
+  background-size: cover;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  width: 180px;
+  height: 176px;
+  text-align: center;
 }
-.hero_section .badge_text{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.hero_section .badge_text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.hero_section .badge_text .h4_xs{
-    font-size: 1.875rem;
-    font-weight: 600;
-    line-height: 1;
-}    
-.hero_section .badge_text .h3_lg{
-    font-size: 2.875rem;
-    font-weight: 600;
-    line-height: 1;
-}    
-.hero_section .hero_text h1{
-    font-family: var( --lilita-font);
-    font-size: 7rem;
-    line-height: 1;
-    margin-bottom: .9375rem;
-    letter-spacing: .1875rem;
+.hero_section .badge_text .h4_xs {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1;
 }
-.hero_section .hero_text h2{
-    font-family: var( --lilita-font);
-    font-size: 2.5rem;
-    line-height: 1;
-    margin-bottom: 1.25rem;
-    letter-spacing: .1875rem;
+.hero_section .badge_text .h3_lg {
+  font-size: 2.875rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.hero_section .hero_text h1 {
+  font-family: var(--lilita-font);
+  font-size: 7rem;
+  line-height: 1;
+  margin-bottom: 0.9375rem;
+  letter-spacing: 0.1875rem;
+}
+.hero_section .hero_text h2 {
+  font-family: var(--lilita-font);
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.1875rem;
 }
 .hero_section .hero_text p {
-    padding: 0 5%;
+  padding: 0 5%;
 }
 
 /* Home About 2.0 */
-.about_section{
-    padding-top: 80px;
-    padding-bottom: 300px;
-    background: url("../assets/about/about-1.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
+.about_section {
+  padding-top: 80px;
+  padding-bottom: 300px;
+  background: url("../assets/about/about-1.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%;
 
-    h2{
-        font-size: 3.2rem;
-        margin-right: -8px;
-    }
+  h2 {
+    font-size: 3.2rem;
+    margin-right: -8px;
+  }
 
-    p{
-        color: var(--grey);
-        padding: 20px 30px;
-        font-size: 17.5px;
-    }
+  p {
+    color: var(--grey);
+    padding: 20px 30px;
+    font-size: 17.5px;
+  }
 }
-.about_wrapper{
-    background: var(--yellow);
-    padding: 70px 0 30px 0;
+.about_wrapper {
+  background: var(--yellow);
+  padding: 70px 0 30px 0;
 
-    .about_box .about_icon img{
-        max-width: 25%;
+  .about_box .about_icon img {
+    max-width: 25%;
+  }
+  .about_box {
+    h4 {
+      font-size: 26px;
+      line-height: 1;
+      letter-spacing: 0.5008px;
+      margin: 30px 0 20px 0;
     }
-    .about_box {
-        h4{
-            font-size: 26px;
-            line-height: 1;
-            letter-spacing: 0.5008px;
-            margin: 30px 0 20px 0;
-        }
-        p{
-            padding: 0 20px;
-        }
+    p {
+      padding: 0 20px;
     }
+  }
 }
 
 /* Home Menu 3.0 */
-.menu_section{
-    padding: 100px 0 100px 0;
+.menu_section {
+  padding: 100px 0 100px 0;
 
-    .card-img-top{
-        transition: all 500ms ease-in-out;
-    }
-    h2{
-        font-size: 3.5rem;
-        color: var(--light-red);
-    }
-    .para{
-        color: var(--grey);
-        padding: 10px 100px;
-        font-size: 19px;
-    }
-    .item_rating i{
-        color: var(--yellow);
-        padding-right: 5px;
-    }
-    .wishlist i{
-        color: var(--grey);
-        font-size: 20px;
-        cursor: pointer;
+  .card-img-top {
+    transition: all 500ms ease-in-out;
+  }
+  h2 {
+    font-size: 3.5rem;
+    color: var(--light-red);
+  }
+  .para {
+    color: var(--grey);
+    padding: 10px 100px;
+    font-size: 19px;
+  }
+  .item_rating i {
+    color: var(--yellow);
+    padding-right: 5px;
+  }
+  .wishlist i {
+    color: var(--grey);
+    font-size: 20px;
+    cursor: pointer;
 
-        &:hover{
-            color: var(--light-red);
-        }
+    &:hover {
+      color: var(--light-red);
     }
-    .card-title{
-        font-family: var(--oswald-font);
-        font-weight: 600;
-        margin: 5px 0 10px 0;
-    }
-    .card-text{
-        color: var(--grey);
-        font-size: 15px;
-    }
-    .menu_price{
-        background-color: var(--bg-coffee);
-        display: inline-block;
-        padding: 7px 12px;
-        border: 4px;
-    
-        h5{
-         color: var(--yellow);
-         font-size: 1rem;   
-        }
-    }
-    .add_to_cart a{
-        background: var(--yellow);
-        display: inline-block;
-        font-size: 1rem;
-        line-height: 1;
-        font-weight: 700;
-        padding: 8px 14px;
-        border-radius: 4px;
-        opacity: 0;
-        transform: translateY(100px);
-        -webkit-transition: all 500ms ease-in-out;
-        -moz-transition: all 500ms ease-in-out;
-        -ms-transition: all 500ms ease-in-out;
-        -o-transition: all 500ms ease-in-out;
-        transition: all 500ms ease-in-out;
-    }
-    & .card:hover .card-img-top{
-        transform: scale(1.1);
-    }
-    & .card:hover .add_to_cart a{
-        transform: translateY(0px);
-        opacity: 1;
-    }
-    .ads_box{
-        text-align: right;
-        padding:80px 35px 50px;
-        border-radius: 6px;
+  }
+  .card-title {
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin: 5px 0 10px 0;
+  }
+  .card-text {
+    color: var(--grey);
+    font-size: 15px;
+  }
+  .menu_price {
+    background-color: var(--bg-coffee);
+    display: inline-block;
+    padding: 7px 12px;
+    border: 4px;
 
-        h4{
-            font-size: 2.25rem;
-            font-weight: 300;
-            color: var(--brown);
-        }
-        h5{
-            font-size: 2.573rem;
-            color: var(--brown);
-        }
-        a{
-            margin-top: 15px;
-            font-size: 18px;
-        }
+    h5 {
+      color: var(--yellow);
+      font-size: 1rem;
     }
-    .ads_img1 {
-        background: url("../assets/menu/ads-1.jpg") no-repeat center center;
-        background-size: cover;
-      }
-    .ads_img2{
-        background: url("../assets/menu/ads-2.jpg") no-repeat center center;
-        background-size: cover;
+  }
+  .add_to_cart a {
+    background: var(--yellow);
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+  }
+  & .card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  & .card:hover .add_to_cart a {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .ads_box {
+    text-align: right;
+    padding: 80px 35px 50px;
+    border-radius: 6px;
+
+    h4 {
+      font-size: 2.25rem;
+      font-weight: 300;
+      color: var(--brown);
     }
+    h5 {
+      font-size: 2.573rem;
+      color: var(--brown);
+    }
+    a {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+  }
+  .ads_img1 {
+    background: url("../assets/menu/ads-1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .ads_img2 {
+    background: url("../assets/menu/ads-2.jpg") no-repeat center center;
+    background-size: cover;
+  }
 }
 
 /* Home Prmotio0n 4.0 */
-.promotion_section{
-    padding: 60px 0px 60px 0px;
-    background-color: var(--light-grey);
+.promotion_section {
+  padding: 60px 0px 60px 0px;
+  background-color: var(--light-grey);
 
-    h2{
-        font-size: 3.25rem;
-        margin-bottom: 25px;
-    }
-    
-    p{
-        font-size: 1.125rem;
-    }
-    ul{
-        padding-left: 15px;
-    }
+  h2 {
+    font-size: 3.25rem;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+  ul {
+    padding-left: 15px;
+  }
 }
 
 /* Home Parallax 5.0 */
 .bg_parallax_scroll {
-    background: url("../assets/parallax/bg.jpg") no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 700px;
+  background: url("../assets/parallax/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
 }
-  
 
+/* Home Shop 6.0 */
+.shop_section {
+  padding: 100px 0 0;
+  background: var(--yellow);
 
+  h4 {
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+  }
+  h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1;
+    color: var(--bg-coffee);
+  }
+  p {
+    font-size: 1.125rem;
+    padding: 0 10% 0 0;
+    color: var(--bg-coffee);
+    margin-bottom: 40px;
+  }
+  .store {
+    max-width: 40%;
+  }
+  .e_shop {
+    text-align: center;
+  }
+}
+.brand_section {
+  padding: 70px 0 40px;
+  background: var(--light-grey);
+  overflow: hidden;
 
+  .brand_img {
+    width: 180px;
+    height: auto;
+  }
+}
+.carousel.slide {
+  .carousel-inner {
+    overflow: unset;
+  }
+  .carousel-inner .carousel-caption {
+    position: relative;
+    right: unset;
+    left: unset;
+  }
+  .carousel-inner .carousel-caption p {
+    font-size: 1.7rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin: 0 0 25px 0;
+  }
+}
 
+/* Home Blog 7.0 */
+.blog_section {
+  padding: 80px 0 50px;
+  background: url("../assets/blog/reviews.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+
+  .user_img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0 0 25px 0;
+  }
+}
 
 /* Media Query Mobiles */
 /* Media Query 1200px */
-@media(max-width:1200px){
-    /* Home Promotion 4.0 */
-    .promotion_section{
-        h2{
-            font-size: 2.25rem;
-        }
+@media (max-width: 1200px) {
+  /* Home Promotion 4.0 */
+  .promotion_section {
+    h2 {
+      font-size: 2.25rem;
     }
+  }
 }
 
 /* Media Query 992px */
-@media(max-width: 992px){
-    /* Home About 2.0 */
-    .about_section{
-        h2{
-            font-size: 2.5rem;
-        }
-        p{
-            padding: 20px 0;
-        }
+@media (max-width: 992px) {
+  /* Home About 2.0 */
+  .about_section {
+    h2 {
+      font-size: 2.5rem;
     }
-    .about_box{
-        p{
-            padding: 0;
-        }
+    p {
+      padding: 20px 0;
     }
-    
-    /* Home Parallax 5.0 */
-    .bg_parallax_scroll{
-        background-attachment: scroll;
-        height: 500px;
+  }
+  .about_box {
+    p {
+      padding: 0;
     }
+  }
+
+  /* Home Parallax 5.0 */
+  .bg_parallax_scroll {
+    background-attachment: scroll;
+    height: 500px;
+  }
 }
 
-
-
-
 /* Media Query 767px */
-@media (max-width: 767px){
-    /* Home Hero 1.0 */
-    .hero_section .hero_text h1{
-        font-size: 5.5rem;
-    }
+@media (max-width: 767px) {
+  /* Home Hero 1.0 */
+  .hero_section .hero_text h1 {
+    font-size: 5.5rem;
+  }
 
-    /* Home Menu 3.0 */
-    .menu_section{
-        .para{
-           padding: 10px 0px;
-        }
+  /* Home Menu 3.0 */
+  .menu_section {
+    .para {
+      padding: 10px 0px;
     }
+  }
+
+  /* Home Shop 6.0 */
+  .shop_section {
+    h4 {
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 3.75rem;
+    }
+    .brand_section {
+      padding: 50px 0 10px;
+    }
+    .brand_img {
+      width: 70px;
+      height: auto;
+    }
+  }
 }
