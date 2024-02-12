@@ -394,13 +394,13 @@ footer{
   text-align: center;
   background: var(--light-red);
   border-radius: 10%;
-}
-.scroll_top i {
-  text-align: center;
-  font-size: 1.5rem;
-  color: var(--white);
-}
 
+  i {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+  }  
+}
 /* ================================== */
     /* Media Query Mobiles */
 /* ================================== */
